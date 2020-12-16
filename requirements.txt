@@ -1,3 +1,2 @@
 telepot==12.7
-~equests==2.22.0
 Requests==2.25.0

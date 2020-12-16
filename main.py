@@ -137,13 +137,13 @@ def handler(data):
     global userans
     uid = data['chat']['id']
 
-    print(usertest)
-    print(uid)
-    print(len(config['Обучение']['вопросы']))
-    try:
-        print(len(config['Обучение']['вопросы']) >= usertest[uid])
-    except Exception:
-        pass
+    # print(usertest)
+    # print(uid)
+    # print(len(config['Обучение']['вопросы']))
+    # try:
+    #     print(len(config['Обучение']['вопросы']) >= usertest[uid])
+    # except Exception:
+    #     pass
     if uid not in uservid:
         uservid[uid] = 0
     # if str(uid) == str(config['id админа']).replace(' ', '').replace('\n', ''):
